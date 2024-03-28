@@ -1,0 +1,18 @@
+.area{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 8px;
+    justify-content: left;
+}
+
+.area li:not(:last-child){
+    border-right: 1px solid black;
+    padding-right: 8px;
+}
+
+img{
+    width:250px;
+    height:250px;
+}

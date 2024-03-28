@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <style>
+        form{
+            border: 1px solid black;
+            width: 25%;
+            border-radius: 10px;
+            padding: 20px;
+            border-spacing: 20px;
+           
+        }
+    </style>
+
+</head>
+<body>
+    <hr>
+    <ul class="area">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./education.html">Education</a></li>
+        <li><a href="./work.html">Work Experience</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <hr>
+
+    <h1>Contact Me</h1>
+    
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi">
+        <p>Enter Your info..</p>
+        <label for="Your_name">Your Name</label><br>
+        <input type="text" id="Your_name" name="Your_name" size="37"><br><br>
+        <label for="Your_e-mail">Your E-mail</label><br>
+        <input type="email" id="Your_e-mail" name="Your_email" size="37"><br><br>
+        <label for="Your_Gender">Gender</label><br>
+        <select id="Your_Gender" name="Gender" style="width: 250px;">
+            <option value="">select..</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br><br>
+        <label for="your_message">Message</label><br>
+        <textarea id="message" name="message" placeholder="" rows="10"
+        cols="35"></textarea><br><br>
+
+        <input type="submit" value="Send">
+        <input type="reset" value="clear">
+
+        
+    </form>
+
+    
+</body>
+</html>
